@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+    <div class="caja1">
+        <h1>Que es flexbox?</h1>
+            <p>Herramienta que con unas cuantas propiedades, se va a poder realizar diseños flexibles y complejos con menor cantidad de codigo</p>
+            <p>Ademas sirve para linear los elementos de manera horizontal y vertical</p>
+            <p>Flexbox es un conjunto de propiedades, y responsive web design es una tecnica de diseño</p>
+    </div>
+    <div class="caja2">
+        <h2>Reglas de oro para asimilar y entender flexbox</h2>
+        <ul>
+            <li>Flex necesita un padre y por lo menos un hijo</li>
+            <li>El Flex-container tiene dos ejes: cross-axis (vertical), y Main axis (horizontal)</li>
+            <li>Podemos modifiacr el eje principal con la propiedad: Flex-direction</li>
+            <li>podemos permitir el salto de columnas con Flex-wrap <p>Cuando el contenido es mas grande que  el contenido, se usa Flex-wrap:nowrap; </p>
+            <p>Si queremos que el contenedor se agrande a medida que el contenido aumenta tambien se usa, flex-wrap:wrap;</p> </li>
+            <li>alineamos los elementos en el eje principal con Justify-content</li>
+            <li>alineamos los elementos en el eje secundario con align-items</li>
+            <li>para alinear los hijos de forma individual se usa align-self</li>
+            <li>los hijos flexibles ignoran las propiedades float, clear y vertical align</li>
+            <li>podemos cambiar el tamaño de los hijos con Flex-grow, flex-shrink, y flex-basis</li>
+            <p>por defecto el tamaño de los hijos se define por el tamaño de su contenido</p>
+                <ul>
+                    <li>Flex-Grow:define el tamaño que crecera un hijo, en relacion a sus demas hermanos, cuando hay un espacio disponible en el contenedor. <b> Su valor por defecto es "0"</b>. este trabaja si el contenedor tiene espacio libre, asi, poniendo esta propiedad, se divide entre lso que tienen esta propiedad
+                    </li>
+                    <li>Flex-shrink: define el tamaño de reduccion de un hijo en relaicon a sus demas hermanos, cuando falte espacio en el contenedor. <b>el valor por defecto es "1"</b>
+                    </li>
+                    <li>Flex-basis: define el tamaño inicial del hijo. <b>sy valorpor defecto es auto</b>. puede suplantar a la propiedad height y width </li>
+            </ul>
+            <li>todo se puede resumir on la propiedad FLEX: (flex-grow, flex-shrink, flex-basis</li>
+            <li>se puede reordenar los hijos flexibles con la propiedad ORDER</li>
+        </ul>
+    </div>
+
+</body>
+</html>
